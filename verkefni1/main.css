@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    max-width: 50em;
+    border: 2px solid blue;
+    padding: 2em;
+    margin: 2em auto; /* top bottom = 2em L+R = auto */
+
+}
+
+h1{
+    color:red;
+}
+.poem {
+    font-style: italic;
+    color: blue
+}
+.poem strong {
+    color: red;
+}
+ul li {
+    color: green;
+}
+a:visited{
+    color: blue;
+}
+.elvis strong {
+    color: red;
+}
+.elvis em {
+    color: green;
+}
+
+
+
+a:hover,
+a:active {
+    color: red;
+}
