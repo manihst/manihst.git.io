@@ -1,3 +1,3 @@
-# manihst.git.io
+# manihst.github.io
 
 * [Verkefni 1](verkefni1)
