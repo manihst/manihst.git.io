@@ -1,0 +1,43 @@
+body {
+    max-width: 85em;
+    margin: 3em auto;
+    padding: 3em;
+    
+}
+.zero {
+    font-family: 'PT Mono', monospace;
+    display: grid;
+    grid-template-columns: 5em auto;
+    grid-template-rows: 3em auto;
+    grid-template-areas: "a0 a0 a0 b0 b0 b0"
+                         "c0 c0 c0 b0 b0 b0"
+                         "c0 c0 c0 b6 b7 b8"
+                         "c0 c0 c0 e0 e0 e0"
+                         "d0 d0 d0 e0 e0 e0";
+    grid-gap: 3em;  
+}
+.one {
+    grid-area: a0;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+.two {
+    grid-area: b0;
+    font-family: 'Lato', sans-serif;
+    color: purple;
+}
+.three {
+    grid-area: c0;
+    font-family: 'Open Sans', sans-serif;
+    color: orange;
+}
+.four {
+    grid-area: d0;
+    font-family: 'Mansalva', cursive;
+    color: magenta;
+}
+.five {
+    grid-area: e0;  
+    font-family: 'Almarai', sans-serif;
+    color: gray;    
+}
