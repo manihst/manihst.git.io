@@ -1,0 +1,79 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background-color: gainsboro;
+}   
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 910em; 
+    margin: 3em auto; 
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+header {
+    background-color: orangered;
+}
+.topnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bakkgrunnar1 {
+    grid-column: 2;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: orangered;
+}
+.foot2 {
+    grid-column: 6;
+}
+.foot1 {
+    grid-column: 4;
+}
+.foot {
+    grid-column: 2;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: orangered;
+}
+.copy {
+    grid-column: 3;
+}
+.middle {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.middle3 {
+    grid-column-start: 5;
+    
+}
+blockquote {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+.menu {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+
